@@ -1,0 +1,295 @@
+﻿"id";"referencia";"Tipo";"Estado";"Cidade";"Bairro";"endereco";"numero";"complemento";"descricao";"QtdDormitorio";"QtdSuite";"QtdBanheiro";"QtdBoxes";"AreaTotal";"AreaPrivativa";"areaUtil";"preco";"preco_loca";"precoCondominio";"DataCadastro"
+"780954";"AP301983";"Apartamento 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Exposição";"Rua Alfredo Chaves";"1285";"401 + tabela";"Empreendimento com vista e localização privilegiada, estrutura objetivando conforto e praticidade, sendo 03 suítes master com espera para closet e hidro, lavabo, sala com 03 ambientes, lavanderia, cozinha, sacada e fachada em pele de vidro.
+ÚLTIMAS UNIDADES!";"3";"3";"4";"61";"320";"262";"262";"2389000";"0";"0";NULL
+"781812";"AP302233";"Apartamento 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"De Lazzer";"Rodovia estrada federal, BR 116, km 123";"s/n";"Apto 42";"Apartamento amplo, com 03 dormitórios, cozinha mobiliada, lavanderia com banheiro auxiliar, sala de jantar e estar com sacada fechada, 01 vaga de garagem
+Acabamento em esquadrias de madeira, piso cerâmico e piso laminado.
+Condomínio com estacionamento para visitante, área de lazer, hall de entrada, playground externo e salão de festas com churrasqueira e mobiliado.
+Com vista para a praça e excelente orientação solar. ";"3";"0";"2";NULL;"114";"86";"86";"210000";"0";"150";NULL
+"786078";"TER02308";"Terreno";"RIO GRANDE DO SUL";"Caxias do Sul";"São Luiz";"Rua Adelino Canali";NULL;NULL;"Ótimo terreno, bem localizado e com uma excelente posição solar no Bairro São Luiz. Próximo ao supermercado, farmácia e posto de gasolina.";NULL;"0";NULL;NULL;"0";NULL;NULL;"256000";"0";"0";"2021-02-08 15:59:00"
+"804962";"SB202296";"Sobrado 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Vinhedos";"Rua Antonio Roberto Schumacher";"90";"01";"Excelente sobrado para você que gosta de receber pessoas em sua residência, muito aconchegante e acolhedor, o lugar perfeito para você e sua família viverem lindos momentos!
+Sobrado semimobiliado com 02 dormitórios sendo 01 suíte, 02 banheiros, 02 vagas de garagem e possui sacada na sala e no dormitório do casal;
+Estacionamento frontal, amplo pátio de fundos com deck de madeira e piscina aquecida;
+Agende já sua visita neste empreendimento que é uma exclusividade da Nobille;
+";"2";"1";"2";NULL;NULL;"111";"111";"529000";"0";"0";"2021-04-15 15:15:37"
+"824038";"SB302324";"Sobrado 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Vila Verde";"Rua Ruy Francisco Chiarello";"17";"SB | N°2";"Sobrado em ótima localização, 03 dormitórios sendo 01 suíte, banheiro social, área de serviço, churrasqueira, cozinha e sala de jantar e estar;
+Acabamento com piso laminado e porcelanato, gelosia e esquadrias de alumínio;
+Sobrado gradeado com portão eletrônico e com pátio.";"3";"1";"3";NULL;"109";"91";"91";"350000";"0";"0";"2021-05-19 16:44:21"
+"844862";"AP302371";"Apartamento 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Vinhedos";"Rua Padre Alberto Luiz Lamonato";"177";"AP | N° 704";"Excelente apartamento smimobiliado no bairro Vinhedos, 97 m² privativos, 03 dormitórios sendo 01 suíte, living para 02 ambientes, sacada gourmet com churrasqueira, espera para vidro duplo, rebaixe em gesso liso, 02 vagas de garagem; 
+Condomínio com 02 elevadores, 02 salões de festas mobiliados, academia equipada, espaço kids mobiliado e área social de convivência.";"3";"1";"2";"36";"126";"97";"97";"600000";"0";"150";"2021-06-24 17:57:40"
+"855942";"AP202412";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Sagrada Família";"Rua Benjamin Constant";"304";"AP | N°502";"Lindo apartamento, finamente decorado localizado no bairro Sagrada Família na av. principal, próximo a BR 116 e ao Andreazza;
+Semimobiliado, sai alguns eletros que não são fixos ou embutidos, 02 dormitórios sendo 01 suíte.";"2";"1";"2";"1";"119";"89";"89";"435000";"0";"300";"2021-07-28 11:37:30"
+"856474";"CA302349";"Casa 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Sagrada Família";"Rua Doutor Júlio Rosa Cruz";"941";NULL;"Ótima casa com 03 dormitórios sendo 02 suítes e sacada, banheiro social, sala de estar e jantar com lavabo, copa/cozinha, garagem para 04 carros ;
+Amplo pátio cercado com grades e muros.";"3";"2";"5";NULL;"328";"255";"255";"850000";"0";"0";"2021-07-30 10:39:32"
+"861304";"AP202433";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Cruzeiro";"Rua Sagitárius";"617";"Nº 201";"Excelente apartamento semimobiliado 02 dormitórios sendo 01 suíte, sala de estar e de jantar, área de serviço e sacada com churrasqueira;
+Acabamento com teto rebaixado em gesso, esquadrias de pvc, piso laminado e porcelanato;
+Condomínio com elevador, portão eletrônico e cerca elétrica.";"2";"1";"2";NULL;NULL;"78";"78";"403000";"0";"0";"2021-08-17 13:35:51"
+"861465";"CA402332";"Casa 04 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Cinquentenário";"Rua Othelo Rosa";"235";NULL;"Ótima casa a venda composta por 04 quartos sendo 01 suíte, sacadas frente e fundos, lareira e churrasqueira, adega de pedra, lavanderia, estacionamento, ampla sala de estar, ampla suíte com sacada e hidromassagem, piso taboão, local bem arborizado, árvores frutíferas, cercada e murada, semimobiliada com móveis sob medida;
+Casa com 3 pavimentos, imóvel com 2 terrenos, 1 de 400,70m² onde está localizado a casa e outro de 413,80 de esquina;
+Região nobre em local alto, posição solar Norte//Leste/Oeste, próxima ao centro e shopping Iguatemi";"4";"1";"5";NULL;"814";"427";"427";"1700000";"0";"0";"2021-08-18 09:37:23"
+"866232";"AP202453";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Bela Vista";"Rua Vicente Indicatti";"70";"Nº 302";"Ótimo apartamento bem localizado e com ótima posição solar no bairro Bela Vista com 02 dormitórios, sala de estar e jantar integrados, cozinha, área de serviço, banheiro, vaga para 02 carros;
+Apartamento com poucos moradores .";"2";"0";"1";"9";"84";"60";"60";"250000";"0";"0";"2021-08-31 16:31:52"
+"878042";"SB202321";"Sobrado 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Cruzeiro";"Rua Travessão Solferino";"360";"Nº 01";"Sobrado 02 dormitórios, um com sacada, outro com closet, banheiro social, cozinha, sala de estar e jantar, lareira e acesso para frente do sobrado, lavabo;
+Garagem para 02 carros, churrasqueira rotativa, lavanderia, portão eletrônico, rebaixo em gesso, piso porcelanato e laminado.";"3";"0";NULL;NULL;NULL;"150";"150";"380000";"0";"50";"2021-09-30 15:47:52"
+"923090";"AP202517";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Rio Branco";"Rua Henrique Dias";"33";"AP | N°61";"Localizado no bairro Rio Branco, ótimo apartamento semimobiliado com peças amplas e bem iluminadas para você que gosta de conforto e comodidade. São 2 dormitórios sendo 1 suíte com closet, sala de estar/jantar e cozinha integrados e acesso para a sacada fechada com churrasqueira, ar condicionado na sala, dormitórios do casal e solteiro. Com diferencial de 05 vagas na garagem individuais.";"2";"1";"2";"15";NULL;"83";NULL;"560000";"0";"300";"2022-02-02 14:37:02"
+"945935";"AP202526";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Rio Branco";"Rua Campos Júnior";"869";"601";"Apartamento finamente mobiliado, com vista incrível, próximo ao centro, com fácil acesso a perimetral, um dos maiores apartamento de 02 dormitórios a venda em Caxias do Sul. Possui uma ampla lavanderia mobiliada com churrasqueira, bancada, aquecedor e janelas amplas facilitando a secagem de roupas e circulação de ar; cozinha mobiliada com forno e micro-ondas embutidos, sala dois ambientes com espelhos e moveis embutidos, enorme sacada, banheiro social mobiliado e equipado; 02 grandes dormitórios mobiliados, sendo 01 com suíte; iluminação e decoração em gesso, ótimo padrão de acabamento, prédio todo repintado, possui estacionamento para visitante e salão de festas.";"2";"1";"2";"2";"128";"105";NULL;"550000";"0";"300";"2022-03-09 11:21:19"
+"950955";"CA402351";"Casa 04 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Colina Sorriso";"Rua Assis Bonoso Fagundes";"375";NULL;"Linda casa à venda no Colina Sorriso, lugar calmo e tranquilo, com amplo pátio com jardim e ótima posição solar, rua sem saída te proporcionando mais segurança com a sensação de condomínio. A casa conta com 04 dormitórios, sendo 01 suíte máster, sala de estar e jantar integrados, banheiro social, cozinha e área de serviço, home office, lareira à lenha dando um charme e mais conforto na sua sala de estar, e conta com uma ampla garagem para até 07 carros.";"4";"1";"3";NULL;"408";"363,712";NULL;"1440000";"0";"0";"2022-03-25 15:14:47"
+"1001116";"SB302489";"Sobrado 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Vinhedos";"Rua Honeyde Bertussi";"1238";"Res. 03";"Lindo, espaçoso e ensolarado, são palavras que definem este maravilhoso sobrado em um dos bairros mais desejados de Caxias do Sul. Aquele sonho de residência com piscina, pátio e sala gourmet para receber os amigos! Isso tudo está ao seu alcance e nós da Nobille estamos aqui para te ajudar! 
+Sobrado conta com 03 pavimentos, sendo o 1º com garagem para 02 carros cobertos e mais 01 descoberto, banheiro, área gourmet com churrasqueira, pátio e piscina.
+No 2º pavimento temos uma ampla sala de estar e jantar com lareira e uma magnífica vista, cozinha e lavanderia.
+O 3º pavimento possuí 03 dormitórios, sendo 01 suíte com sacada.
+Permanecem todos os móveis fixos, acabamentos classe A. 
+Agende sua visita!";"3";"1";"3";NULL;"177,17";"177,17";NULL;"690000";"0";NULL;"2022-07-21 14:17:11"
+"1158034";"TER02417";"Terreno";"RIO GRANDE DO SUL";"Caxias do Sul";"São Luiz";"Rua Gomercindo Andrade Camargo";"1086";NULL;"Encontrar o imóvel dos sonhos nunca foi tão fácil, basta preencher o formulário com nome, telefone e e-mail e enviar. Pronto! Agora o corretor da Nobille Negócios Imobiliários Caxias do Sul entrará em contato para confirmar seu interesse e agendar uma visita. Se tiver alguma dúvida, é só entrar em contato com a Nobille pelo número anunciado ao lado. Lembre-se que o imóvel está sujeito à confirmação de disponibilidade e valor.
+
+
+Excelente terreno localizado no loteamento Monte Bello, bairro São Luiz, frente Oeste medindo 14,25 x 27,50 com área 391,87m², ótimo para construção de casas ou prédio, próximo de mercado, a poucos quilômetros do Centro de Caxias do Sul!
+
+
+
+A Nobille Caxias do Sul tem as melhores opções de imóveis para venda, além de lançamentos e construções em Caxias do Sul. Nosso atendimento pode ser presencial e ou online, proporcionando agilidade aos nossos clientes e amigos. Venha tomar um café conosco, conhecer nossa estrutura, tirar dúvidas e descobrir porque fazer seu negócio aqui é sua melhor escolha. Nossos corretores são especialistas e estão disponíveis para trazer todo conforto e segurança que você e sua família merecem. Trabalhamos com avaliação, permutas de imóveis e venda Em Caxias do Sul, buscamos sempre a melhor oportunidade e negociação para nossos clientes, aqui você encontra os melhores imóveis de médio e alto padrão de Caxias do Sul, temos uma variedade de Apartamentos, casas, casas em condomínio fechado, coberturas, terrenos, sobrados...sempre com as melhores condições do mercado em Caxias do Sul. Contamos ainda com apoio jurídico especialista no ramo imobiliário que poderá esclarecer todas suas dúvidas à respeito de sua negociação. Anuncie seu imóvel! É fácil, rápido, seguro e gratuito! Gostou desta opção? Visite esta e outras opções em nosso site: www.nobille.imb
+
+ 
+
+ ";NULL;NULL;NULL;NULL;"391,87";"391,87";NULL;"205000";"0";NULL;"2023-04-19 08:54:53"
+"780874";"SC01949";"Sala Comercial";"RIO GRANDE DO SUL";"Caxias do Sul";"Centro";"Rua Borges de Medeiros";"920";"sala 32";"Excelente sala central, ótima para diversos negócios, com uma boa visão central.";NULL;"0";"1";NULL;"0";"54";NULL;"199000";"0";"500";NULL
+"780941";"AP202205";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Vinhedos";"Rua Firmino Pandolpho";"679";"Apto 202";"Apartamento 02 dormitórios, semimobiliado, sala de estar e jantar integradas com sacada fechada, cozinha e área de serviço, banheiro social e 01 vaga dupla de garagem.
+Acabamento em esquadrias de alumínio, piso laminado e porcelanato e teto rebaixado em gesso.
+Condomínio com cerca elétrica, hall de entrada e interfone.";"2";"0";"1";"10";"85";"61";"61";"220000";"0";"150";NULL
+"780973";"AP302152";"Apartamento 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Sagrada Família";"Rua Major Adauto Cruz";"1449";"401";"Amplo apartamento com ótima localização, 03 dormitórios, sendo 01 com suíte, cozinha, lavanderia, churrasqueira e sacada.
+Acabamento em esquadrias de madeira, piso cerâmico e piso laminado;
+Condomínio com hall de entrada e interfone.";"3";"1";"2";"5";"131";"105";"105";"275000";"0";"200";NULL
+"781007";"KIT02144";"Kitnet";"RIO GRANDE DO SUL";"Caxias do Sul";"Medianeira";"Rua Boa Viagem";"547";"Térreo";"Kitnet ou sala comercial, banheiro social e espera para cozinha.";"1";"0";"1";NULL;"35";"23";"23";"100000";"0";"130";NULL
+"781263";"AP202187";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Desvio Rizzo";"Rua Cristiano Ramos de Oliveira";"1282";"802";"Apartamento 02 dormitórios bem posicionado no bairro Desvio Rizzo, sala de jantar e estar integradas com acesso a sacada, cozinha com área de serviço e 01 vaga de garagem. Condomínio com hall de entrada, elevador e salão de festas.";"2";"0";"1";"39";"0";"48";"48";"201645";"0";"170";NULL
+"781290";"AP201652";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Bela Vista";"Rua Olímpio Biazus";"105";"601 + tabela";"Apartamento 02 dormitórios, 01 vaga simples; 
+(Opção de planta c/ suíte e terraço);
+Área de serviço, banheiro social, churrasqueira na sacada, cozinha, sala de estar/ jantar, decoração em gesso, esquadrias de alumínio, piso laminado/ porcelanato, gás encanado central, hidrômetro individual; Elevador.
+
+56m² a 87m² privativos conforme tabela;
+";"2";"0";"1";NULL;"0";"56";"56";"190000";"0";"0";NULL
+"781325";"CB301782";"Cobertura 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Exposição";"Rua Sarmento Leite";"1538";"1201";"Encante-se com essa esplendorosa cobertura duplex no bairro Exposição! Um imóvel distinto, repleto de qualidade de vida, para desfrutar de amplos espaços proporcionando muito conforto e luminosidade para você e sua família, pois  contempla posição solar privilegiada. A cobertura duplex possui projeto arquitetônico diferenciado e exclusivo, com altíssimo padrão de acabamentos. Permanece semimobiliada e é composta por 03 amplas suítes íntegras e com closet, lavabo, 04 vagas de garagem, vista panorâmica da cidade, esquadrias em PVC com vidros duplos, calefação e ar condicionado instalados, churrasqueira com bifeteira e exaustor, decoração em gesso, iluminação, papel de parede, floreiras, fonte d'água com lago ornamental, paisagismo, pisos em mármore e madeira nobre.
+Não perca a grande oportunidade de conhecer este belíssimo empreendimento!";"3";"3";"4";"17";"411";"345";"345";"2600000";"0";"800";NULL
+"781813";"AP202229";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Nossa Senhora da Saúde";"Rua Firmino Pandolpho";"919";"201";"Apartamento 02 dormitórios, semi mobiliado, sala estar e jantar, sacada fechada, cozinha com móveis sob medida, água quente, espera para split, sacada fechada banheiro e 01 vaga de garagem;
+Acabamento em rebaixe em gesso, piso cerâmico, piso laminado e esquadrias de alumínio;
+Condomínio com cerca elétrica, gradeado, interfone, jardim, vista panorâmica, orientação solar oeste. Construção de excelente qualidade, prédio semi novo (mais ou menos 8 anos), condomínio enxuto.
+Local calmo e totalmente residencial.";"2";"0";"1";NULL;"0";"65";"65";"200000";"0";"235";NULL
+"781818";"AP202179";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Interlagos";"Rua Waldemar Lazzarotto";"237";"204";"Apartamento amplo de 88m² com 02 dormitórios, cozinha com móveis sob medida, sala de jantar e estar com acesso a sacada fechada e 01 vaga de garagem; Orientação solar leste/norte e com baixo valor de condomínio.
+
+";"2";"0";"1";"15";"0";"88";"88";"210000";"0";"180";NULL
+"781836";"SB202265";"Sobrado 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Charqueadas";"Rua Nayr Aurora Carnezella Pezzi";"338";"";"Sobrado 02 dormitórios, semimobiliado com eletro-domésticos, sendo no 1º pavimento: garagem para 02 carros, depósito, sacada de acesso ao 2º pavimento superior fechado com vidro. 
+O 2º pavimento:  cozinha, lavabo, forno embutido e geladeira, sala de estar, lavanderia com aquecedor, sacada fechada com churrasqueira. 
+O 3º pavimento:  01 dormitório de casal com cama, ar condicionado, banheiro social e dormitório de solteiro. ";"2";"0";"3";NULL;"0";"86";"86";"225000";"0";"0";NULL
+"781864";"AP202252";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"São Luiz";"Rua Wanda Rossato Pontalti";"296";"Apto 401";"Ótimo apartamento de 02 dormitórios, cozinha, gás encanado central, medidores individuais, sala de jantar e estar integrados, churrasqueira na sacada e boa localização.
+Acabamento em esquadrias de alumínio, piso cerâmico, piso laminado e teto rebaixado em gesso. 
+Condomínio com câmeras de monitoramento e cerca elétrica. 
+";"2";"0";"1";"7";"0";"51";"51";"175000";"0";"0";NULL
+"782156";"TER02015";"Terreno";"RIO GRANDE DO SUL";"Caxias do Sul";"Bela Vista";"Avenida Maurício Sirotsky Sobrinho";"3698";"Tabela";"Excelentes lotes de terreno pronto para construir, ótimo para investimento e construção, compra facilitada, parcelamento direto, área mínima construtiva de 60m², condomínio possui infraestrutura contando com playground, quadra de esportes e ruas pavimentadas em asfalto.";NULL;"0";"0";NULL;"0";"0";NULL;"118000";"0";"0";NULL
+"782212";"SC01810";"Sala Comercial";"RIO GRANDE DO SUL";"Caxias do Sul";"São Pelegrino";"Rua José Gollo";"55";"";"Loja térrea, plana, ótima localização e orientação solar.
+192m² privativos;
+Orientação solar: oeste.";NULL;"0";"1";NULL;"0";"192";"192";"520000";"0";"0";NULL
+"782311";"AP202060";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Bela Vista";"Rua João Bisi Filho";"28";"Apto 104+ TABELA";"Empreendimento em ótima localização, com 02 dormitórios, sala de estar e jantar integrados, cozinha, área de serviço com opção para ser separada e banheiro social.
+Acabamento em esquadrias de alumínio, piso laminado e porcelanato;
+Condomínio com hall de entrada, interfone e jardim.
+Crédito associativo, entrada parcelada em até 24 vezes com ITBI e REGISTRO pagos.";"2";"0";"1";NULL;"0";"47";"47";"161000";"0";"0";NULL
+"782371";"TER01705";"Terreno";"RIO GRANDE DO SUL";"Caxias do Sul";"Diamantino";" Rua Mauro Oliveira da Silva";"0";"TABELA";"Excelentes terrenos para você e sua família com conforto e segurança no Residencial Piemonte. 
+Loteamento com grande potencial de valorização. 
+304m² a 394m².
+Parcelamento em até 48x.";NULL;"0";"0";NULL;"303";"0";"0";"105000";"0";"0";NULL
+"782487";"AP102196";"Apartamento 01 dormitório";"RIO GRANDE DO SUL";"Caxias do Sul";"Cinquentenário";"Rua Vicente Rasia";"201";"402";"Apartamento com 01 dormitório, Banheiro social, Copa, Cozinha, área de serviço, sacada, churrasqueira, piso Laminado, piso cerâmico, esquadrias de alumínio. VENHA CONHECER!";"1";"0";"1";NULL;"0";"47";"47";"147319";"0";"0";NULL
+"782498";"AP302074";"Apartamento 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Pio X";"Rua Augusto Borsarini";"66";"201";"Apartamento semimobiliado, 03 dormitórios, 77m² bem localizado e ótima posição solar.";"3";"0";"1";NULL;"0";"77";"77";"381292";"0";"180";NULL
+"782503";"AP202083";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Vila Verde";"Rua Santo Vergani";"108";"201";"Apartamento 02 dormitórios, semi mobiliado, sala de jantar e estar com sacada e churrasqueira, banheiro social, cozinha e lavanderia.";"2";"0";"1";"20";"0";"53";"53";"190000";"0";"200";NULL
+"782661";"SB202067";"Sobrado 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Nossa Senhora das Graças";"Rua Wally Beretta Ribeiro Mendes";"0";"TABELA";"Sobrado duplex 02 dormitórios, 55m² em ponto alto do bairro Nossa Senhora das Graças, sla e cozinha integrada, lavabo e banheiro. Acabamento em massa corrida, laminado, porcelanato, esquadrias de alumínio e 1 vaga de garagem.
+
+Opções de R$ 185.000,00 e R$ 195.000,00
+Valores diferenciado para investidores.
+
+";"2";"0";"1";NULL;"55";"55";"55";"190000";"0";"0";NULL
+"782716";"AP202095";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Panazzolo";"Rua Pistóia";"97";"402";"Lindo apartamento totalmento mobiliado e decorado contando com 02 dormitórios sendo 01 suíte, sala de jantar e de estar com churrasqueira, lavanderia, lavabo e cozinha. Excelente localização e orientação solar.";"2";"1";"2";NULL;"0";"87";"87";"470000";"0";"0";NULL
+"782878";"AP202276";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Vila Verde";"Rua Gustavo Dultra Almeida";"156";"Apto 401";"Ótimo apartamento com 02 suítes e 01 lavabo, com cerca elétrica, churrasqueira na sacada, sala de estar e jantar integrados. 
+Acabamento em massa corrida, piso laminado e porcelanato e teto rebaixado de gesso. 
+Condomínio com cerca elétrica, gás central, portão eletrônico e salão de festas.";"2";"2";"3";NULL;"0";"82";"82";"395000";"0";"0";NULL
+"783057";"TER01122";"Terreno";"RIO GRANDE DO SUL";"Caxias do Sul";"Lourdes";"Rua Tronca,s/n";"s/n";"";"Terrenos planos, orientação solar Norte, ótima localização comercial, 02 terrenos lado a lado com 396,00m² cada.";NULL;"0";"0";NULL;"792";"0";NULL;"1400000";"0";"0";NULL
+"783060";"TER01105";"Terreno";"RIO GRANDE DO SUL";"Caxias do Sul";"Colina Sorriso";"Rua Gilberto Candeia";"741";"De Esquina ";"Excelente terreno no bairro Colina Sorriso com ótima localização e lugar alto.
+
+Dois lotes: Um com 497,03m² e lote ao lado com 486,18m², totalizando 983,21m².
+
+OFERTA DE R$750.000,00 POR R$590.000,00.";NULL;"0";"0";NULL;"0";"0";NULL;"590000";"0";"0";NULL
+"783074";"TER02242";"Terreno";"RIO GRANDE DO SUL";"Caxias do Sul";"São Luiz";"Rua Claudino Massochini";"s/n";"Tabela";"Terreno em bairro com infraestrutura pronta para construir, em rua com pouco tráfego, toda pavimentada e próximo de área verde.
+Última oportunidade de 02 lotes de terreno à venda.
+
+
+";NULL;"0";"0";NULL;"720";"0";NULL;"410000";"0";"0";NULL
+"783184";"AP300901";"Apartamento 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Fátima";"Rua Luiz Carlos Prestes";"43";"";"Excelentes apartamentos em construção com 03 dormitórios, sala de estar e jantar, cozinha, área de serviço, piso cerâmico, sacada com churrasqueira e 01 box de garagem. Prédio com gás central, elevador, espera para medidores individuais, salão de festas e ótima localização.    Opção para 02 vagas de garagem! 
+Investimento: A partir de R$ 185.500,00. Entrega: 2017";"3";"0";"1";NULL;"0";"66";"66";"185500";"0";"0";NULL
+"784695";"AP302286";"Apartamento 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Madureira";"Luis Faccioli ";"92";" Apto 21";"Apartamento Semi- mobiliado com 03 dormitórios sendo 01 suíte, salão de festas equipado e elevador; 
+Acabamento em massa corrida, piso laminado e porcelanato;
+Excelente localização e ótima posição solar.
+";"3";"1";"2";NULL;NULL;"72";NULL;"300000";"0";"140";"2021-02-02 18:08:59"
+"785294";"AP301824";"Apartamento 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Exposição";"Rua Almirante Tamandaré";"127";"601";"Sofisticado, mobiliado, decorado, nobre localização, acabamentos de alto padrão, excelente orientação solar. Esses adjetivos descrevem este lindo apartamento de 03 dormitórios com 04 vagas de garagem, possui gabinete, banheiro social, amplo living, cozinha com churrasqueira, aquecedor. Prédio com infraestrutura completa, 02 salões de festas, academia, brinquedoteca, mini quadra esportiva, jardim e playground.";"3";"1";"2";"39";"0";"163";"163";"1050000";"0";"0";"2021-02-04 08:51:13"
+"785894";"SB202287";"Sobrado 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Salgado Filho";"Rua Fredolino Valentin Zardin";"34";"tabela";"Ótimo sobrado TRIPLEX com 02 dormitórios sendo o quarto principal com sacada fechada, baixo custo de condomínio, semi-mobiliado, piso cerâmico, esquadrias de alumínio e ferro; 
+Ótima infraestrutura.";"2";"0";"1";NULL;"77";"73";NULL;"202000";"0";"0";"2021-02-07 18:13:51"
+"786720";"AP202312";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Sanvitto";"Rua Leon Cia";"130";"404";"Ótimo apartamento 02 dormitórios, semi-Mobiliado, sala de estar, sala de jantar, lavanderia, churrasqueira na cozinha, banheiro social, água quente, espera para água quente e gás encanado central;
+Acabamento com decoração em gesso, piso laminado e porcelanato e massa corrida;
+Com excelente localização.";"2";"1";"2";"12";NULL;"82";NULL;"375000";"0";"0";"2021-02-11 08:51:35"
+"787705";"CAC302304";"Casa em Condomínio 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Pedancino";"Estrada Bento Osvaldo Trisch";"281";NULL;"Excelente residência com 03 dormitórios, sendo 01 suíte, ampla área living e piscina construída no condomínio Vicino no bairro Pedancino;
+Acabamento em esquadrias de PVC, decoração em gesso, piso laminado e porcelanato, massa corrida e teto rebaixado em gesso;
+Condomínio com brinquedoteca, cabo lógico, espera para calefação elétrica, sala de cinema, parede dupla com EPS, academia, espaço fogo de chão, quadra de futebol, quadra de padel, pet place, playground, quadra poliesportiva, sala de jogos, salão de festas, salão gourmet, segurança 24 horas, espaço skate park, spa, espera para split, quadra de tênis e trilhas para caminhada.";"3";"3";"4";NULL;NULL;"218";"218";"1749575,52";"0";"0";"2021-02-16 18:07:11"
+"787753";"AP302310";"Apartamento 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Pio X";"Rua Guilherme Adamatti";"316";"Apto 42";"Apartamento semi-mobiliado 03 dormitórios sendo 01 suíte, lavanderia ampla, cozinha reformada com móveis fixos, sala de jantar e  sala de estar integrados com sacada fechada, banheiro social, box com capacidade para 02 carros grandes com entradas individuais;
+Acabamento em decoração em gesso, massa corrida, piso cerâmico ou porcelanato, piso laminado e teto rebaixado em gesso;
+Condomínio com alarme, cerca elétrica, gás central, hall de entrada, portão eletrônico e salão de festas mobiliado com churrasqueira;
+Ótima localização e excelente orientação solar.
+";"3";"1";"2";NULL;"144";"103";NULL;"489000";"0";"250";"2021-02-17 10:18:41"
+"787777";"AP202319";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Jardim América";"Rua Estados Unidos";"187";"Apto 102";"Excelente apartamento no Jardim América em região nobre da cidade, com 02 dormitórios, banheiro social, churrasqueira, hidrômetro individual, sacada, terraço, sala de estar e jantar integrados;
+Acabamento em massa corrida, piso laminado e porcelanato e teto rebaixado em gesso;
+Condomínio com interfone e jardim.";"2";"0";"1";NULL;NULL;"64";NULL;"240000";"0";"0";"2021-02-17 11:23:30"
+"787787";"AP202320";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Jardim América";"Rua Estados Unidos";"187";"Apto 204";"Lindo apartamento no Jardim América em região nobre da cidade, com 02 dormitórios, banheiro social, churrasqueira, hidrômetro individual, sacada, sala de estar e jantar integrados;
+Acabamento em massa corrida, piso laminado e porcelanato e teto rebaixado em gesso;
+Condomínio com interfone e jardim.";"2";"0";"1";NULL;NULL;"52";NULL;"230000";"0";"0";"2021-02-17 11:50:28"
+"790289";"AP302314";"Apartamento 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Bela Vista";"Rua Honorino Pedro de Zorzi";"902";"apto 601";"Excelente apartamento semimobiliado com 03 dormitórios, sendo 01 suíte, no Bela Vista em andar alto com ótima iluminação. Acabamentos em piso laminado e porcelanato, esquadrias de alumínio com gelosia nos dormitórios. Água quente, ampla sacada fechada com churrasqueira, forno e fogão, box duplo com 02 vagas de garagem";"3";"1";"2";NULL;"0";"87";"87";"365000";"0";"0";"2021-03-03 09:57:33"
+"793067";"TER02319";"Terreno";"RIO GRANDE DO SUL";"Caxias do Sul";"Pio X";"Rua Visconde de Pelotas";"1187";NULL;"Terreno na Visconde de Pelotas à 130 metros da Rua Os Dezoito do Forte, com 474,28 m² com posição de frente Oeste.";NULL;"0";NULL;NULL;NULL;NULL;NULL;"1800000";"0";"0";"2021-03-10 16:16:49"
+"793068";"TER02320";"Terreno";"RIO GRANDE DO SUL";"Caxias do Sul";"Santa Catarina";"Rua Ettore Lazzarotto";NULL;NULL;"Terreno no bairro Santa Catarina.";NULL;"0";NULL;NULL;NULL;NULL;NULL;"300000";"0";"0";"2021-03-10 16:19:21"
+"794483";"AP302324";"Apartamento 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Villagio Iguatemi";"Rua Reinaldo Scherner";"53";"Apto 802";"Lindo apartamento finamente mobiliado e decorado no bairro Villagio Iguatemi, possui 03 dormitórios sendo 01 suíte com closet, sala de estar, sala de jantar com acesso a sacada gourmet que possui churrasqueira e pia, cozinha equipada com bancada, lavanderia com acesso a sacada, banheiro social, padrão de acabamento classe a, orientação solar e vista privilegiados, 02 vagas de garagem, elevador, salão de festas, aquecedor, ar condicionados instalados.
+";"3";"1";"2";"5";"159";"120";"120";"840000";"0";"300";"2021-03-15 17:08:01"
+"796352";"AP202329";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Vila Verde";"Rua Nadyr Antonio Antonioli";"237";"102 -B";"Ótimo apartamento semimobiliado no bairro Vila Verde bem localizado, 02 dormitórios, banheiro social, armários embutidos, box chuveiro, cozinha, espera para água quente, espera para hidrômetro individual, medidores individuais, sala de jantar e sala de estar integrados, área de serviço com terraço nos fundos;
+Acabamento com esquadrias de alumínio, piso laminado, piso porcelanato e teto rebaixado em gesso;
+Condomínio com alarme, cerca elétroca, interfone e porteiro eletrônico.";"2";"0";"1";NULL;NULL;"78";NULL;"220000";"0";"180";"2021-03-22 11:29:35"
+"796372";"AP202330";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Cinquentenário";"Rua das Gardênias";"638";"701";"Apartamento com 02 dormitórios, sendo 01 suíte, sala 02 ambientes integrados com a cozinha, água quente, área de serviço, armários embutidos, armários na cozinha, boiller, banheiro social, cerca elétrica, espera para Split, gás encanado central, hall, medidores individuais, sacada fechada e sala de jantar;
+Acabamento com massa corrida, piso laminado, piso porcelanato e teto rebaixado gesso;
+Condomínio com elevador, alarme, cerca elétrica, gradeado, hall de entrada, interfone, jardim, portão eletrônico, salão de festas, ótima localização próxima ao shopping Iguatemi.";"2";"1";"2";"14";"133";"99";"99";"450000";"0";"260";"2021-03-22 13:40:00"
+"796941";"AP102277";"Apartamento 01 dormitório";"RIO GRANDE DO SUL";"Caxias do Sul";"Lourdes";"Rua Sinimbu";"520";"1204";"Excelente apartamento 01 dormitório localização privilegiada, cozinha, espera para água quente, espera para hidrômetro individual, espera para Split, gás encanado central com medidor individual, lavanderia, medidores individuais, sacada e sala de estar e jantar integrados;
+Acabamento em massa corrida, esquadrias de PVC, persianas nos dormitórios, piso cerâmico e piso laminado;
+Condomínio com hall de entrada, alarme, auditório, câmeras de monitoramento, elevador, espaço gourmet, guarita, portaria 24 horas, sala de reuniões, sala de estudos e salão de festas.
+";"1";"0";"1";NULL;NULL;"46";"46";"299000";"0";"340";"2021-03-24 16:06:57"
+"799417";"CA402310";"Casa 04 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Colina Sorriso";"Rua Francisco Antônio Sartor Rugeri";"232";NULL;"Residência com acabamentos requintados, escadaria em granito, corrimão de inox, pé direito duplo nas áreas sociais e 2,80mt nos demais ambientes, paredes duplas proporcionando conforto acústico e térmico. Captação da água da chuva, espera para calefação, energia solar, PISCINA AQUECIDA, deck molhado com madeiras de autoclave, esquadrias em itaúba, decoração em gesso e luzes de Led. Amplo jardim e pátio.
+A casa é contemplada com apoio social de QUIOSQUE com cozinha, churrasqueira rotativa, forno Iglu e lavabo;
+1ª nível: Gabinete, 01 dormitório, banheiro social, cozinha americana e copa com fogão campeiro com serpentina e churrasqueira, sala de jantar, sala de estar com acesso a varanda;
+2ª nível: Estar íntimo, banheiro social, 03 dormitórios com sacada, sendo 01 suíte master com closet e hidromassagem (02 dormitórios podem ser transformados em suítes americana).
+Subsolo: 04 vagas de garagem, banheiro social, dependência de empregada, churrasqueira, lavanderia e depósitos.
+";"4";"1";"4";NULL;NULL;"428";"428";"1900000";"0";"0";"2021-04-04 17:11:52"
+"805700";"CA302319";"Casa 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Cinquentenário";"Rua Pedro Mocelin";"124";NULL;"Residência com ótima localização no bairro Cinquentenário, 03 dormitórios sendo 02 suítes máster, área de serviço, closet, cozinha e copa, sala de jantar com acesso a varanda, sala de estar e sala de TV, lareira, sacada, churrasqueira, entrada social, gabinete, hall, lavabo, sala de estudo, água quente, calefação e despensa;
+Acabamento com decoração em gesso, esquadrias de madeira, massa corrida, iluminação em LED, pé direito duplo, piso cerâmico, piso laminado e teto rebaixado em gesso;
+Casa com alarme, área de lazer, gradeado, hall de entrada, jardim, pátio e portão eletrônico.";"3";"2";"5";NULL;NULL;"298";"298";"1250000";"0";"0";"2021-04-19 16:34:47"
+"809810";"AP202341";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Santa Catarina";"Rua Vereador Dionísio Sandi";"144";"202";"Apartamento 02 dormitórios sendo 01 suíte, sala de jantar, sala de estar com sacada, cozinha, lavanderia com churrasqueira, banheiro social, ficam todos os móveis fixos;
+Acabamento com esquadrias de madeira, piso cerâmico e parquet;
+Condomínio com hall de entrada, cerca elétrica e interfone. ";"2";"1";"2";"4";"93";"87";"87";"319000";"0";"270";"2021-04-24 09:25:40"
+"834556";"AP302355";"Apartamento 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Cruzeiro";"Rua Nepomuceno Diniz de Vargas";"175";"AP | N° 34";"Ótimo apartamento semimobiliado 03 dormitórios sendo 01 suíte, banheiro social, área de serviço, sala de estar e jantar integrados, cozinha, churrasqueira e box no chuveiro;
+Acabamento com massa corrida, teto rebaixado em gesso, gelosia, piso laminado e porcelanato e esquadrias de alumínio;
+Condomínio com jardim, elevador, portão eletrônico e cerca elétrica.";"3";"1";"2";"12";NULL;"94";"94";"445000";"0";"200";"2021-05-31 14:47:20"
+"839068";"SC02154";"Sala Comercial";"RIO GRANDE DO SUL";"Caxias do Sul";"Cinquentenário";"Rua Ângelo Francisco Guerra";"51";NULL;"Ótima sala comercial com 91,2 m² de área privativa, mais de 37 m² de área aberta (terraço);
+Conta ainda com 01 vaga de estacionamento, 02 banheiros;
+Piso porcelanato, forro de gesso, massa corrida, ampla área envidraçada;
+Ótima localização, próximo ao shopping Iguatemi.";NULL;"0";"2";NULL;NULL;"91";"91";"260000";"0";"0";"2021-06-10 10:04:46"
+"843002";"AP202382";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"São Pelegrino";"Rua Olavo Bilac";"287";"AP | N°31";"Ótimo apartamento no São Pelegrino composto por 02 dormitórios sendo 01 suíte;
+Apartamento semi-mobiliado.";"2";"1";"2";"8";NULL;"107";"107";"463000";"0";"0";"2021-06-17 15:20:27"
+"845629";"TER02348";"Terreno";"RIO GRANDE DO SUL";"Caxias do Sul";"Forqueta";"Rua Dorivia Ferrasso dos Reis";NULL;"Lote 11";"Excelente loteamento planejado com infraestrutura completo, ruas com pavimentação asfáltica, quadra de vôlei de areia, playgraund, e campo de futebol.";NULL;"0";NULL;NULL;NULL;NULL;NULL;"100000";"0";"0";"2021-06-29 13:57:48"
+"845727";"AP202391";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Cidade Nova";"Rua Dante Francisco Zatera";"455";"101";"Apartamento 02 dormitórios 01 banheiro social , sala de estar e jantar integrados, cozinha e sacada com churrasqueira; 
+Acabamento com esquadrias de alumínio, massa corrida, gelosia e teto rebaixado em gesso;
+Condomínio com portão eletrônico, cerca elétrica, interfone e portão eletrônico.";"2";"0";"1";"2";NULL;"57";NULL;"190000";"0";"0";"2021-06-29 16:53:24"
+"847429";"AP202397";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"São Luiz";"Rua Padre Angelo Tronca";"1390";"AP | N°502";"Ótimo apartamento 02 dormitórios, living 02 ambientes, cozinha, área de serviço, terraço com churrasqueira e banheiro social;
+Condomínio com gás central, porteiro eletrônico, interfone e elevador.";"2";"0";"1";"16";"58";"55";"55";"235000";"0";"0";"2021-07-06 09:55:54"
+"856574";"TER02356";"Terreno";"RIO GRANDE DO SUL";"Caxias do Sul";"São Giácomo";"Rua Aldir Rech";NULL;NULL;"Excelente terreno plano, com ótima posição solar sendo norte.";NULL;"0";NULL;NULL;NULL;"312";NULL;"140000";"0";"0";"2021-07-30 15:02:18"
+"858628";"AP202417";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Pio X";"Rua Garibaldi";"247";"Nº 703";"Lindo apartamento semimobiliado 02 dormitórios sendo 01 suíte com 02 vagas de garagem.";"2";"1";"2";"31";NULL;"78";"78";"450000";"0";"375";"2021-08-05 17:50:21"
+"858967";"CAC302310";"Casa em Condomínio 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Linha 40";"Rua Travessão Thompson Flores";"Lote 93";NULL;"Magnífica casa em condomínio fechado, totalmente mobiliada, contempla 03 suítes com closet e hidromassagem 01 com lareira, cozinha com churrasqueira, amplo living com jantar envidraçado e sala de tv, lareira, 02 sacadas e área de serviço;
+Acabamento classe A com rebaixe em gesso, esquadrias de PVC, iluminação, vidros duplos e piso porcelanato;
+Casa com piscina aquecida, varanda gourmet com churrasqueira externa, piso aquecido na parte superior, amplo pátio e jardim, completa para proporcionar os melhores momentos para você e sua família.";"3";"3";"4";NULL;"1200";"450";"450";"2500000";"0";"0";"2021-08-07 10:42:06"
+"859306";"TER02361";"Terreno";"RIO GRANDE DO SUL";"Caxias do Sul";"Altos do Seminário";"Rua Padre Luiz Bonetto";"113";NULL;"Excelente terreno para construção em bairro nobre de Caxias do sul;
+Dimensões 14x26,65";NULL;"0";NULL;NULL;NULL;"368";"368";"450000";"0";"0";"2021-08-09 17:09:46"
+"859816";"TER02362";"Terreno";"RIO GRANDE DO SUL";"Caxias do Sul";"Cidade Nova";"Rua Luiz Covolan";"";NULL;"Excelente terreno último do loteamento, água encanada, energia elétrica, pavimentação e rede de esgoto.";NULL;"0";NULL;NULL;NULL;"300";"300";"95000";"0";"0";"2021-08-11 09:52:23"
+"894739";"TER02390";"Terreno";"RIO GRANDE DO SUL";"Caxias do Sul";"Panazzolo";"Rua Thomas Gonzaga";"75";NULL;"Ótimo terreno para construir casa ou prédio.";NULL;"0";NULL;NULL;NULL;NULL;NULL;"900000";"0";"0";"2021-11-16 15:42:48"
+"920499";"AP302460";"Apartamento 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Villagio Iguatemi";"Rua Guerino Sanvitto";"1657";NULL;"Apartamento de alto padrão no Villaggio Iguatemi, loteamento Vila Toscana, Localizado no 14 pavimento composto de  3 suítes sendo 1 master com closet,  living 3 ambientes com sacada gourmet,  cozinha,  área de serviço com sacada, lavabo, todas as suítes com sacada.
+O apartamento possui  esquadrias em PVC com vidros duplos, esperas para split; calefação e automação residencial,  piso laminado e porcelanato,  persianas automatizadas,  rebaixe em gesso. 02 vagas de garagem, 
+O Empreendimento conta com:
+ - 2 elevadores sendo 1 panorâmico
+ - Guarita de segurança
+ - Terraço com deck e pergolado
+ - Salão de festas
+ - Pub gourmet
+- Espaço kids
+ - Campo de futebol kids
+ - Espaço fitness
+ Todos os ambientes de uso comum entregues mobiliados; equipados e decorados.";"3";"3";"4";"0";"254";"175";NULL;"1280000";"0";"1100";"2022-01-24 15:37:18"
+"984340";"CA302478";"Casa 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Monte Bérico";"Rua Fernanda Cemin";NULL;NULL;"Última casa em fase final, localizada em um lugar tranquilo numa rua sem saída. Belíssimo acabamento, aberturas em PVC com persianas elétricas, água quente, churrasqueira, terraço, salão de festa, sala e cozinha integrados, área de serviço, banheiro social, 03 quartos sendo 02 suítes e um amplo salão de festas no segundo piso e 01 lavabo.
+";"3";"2";"3";NULL;"161,78";NULL;NULL;"900000";"0";"0";"2022-06-17 14:56:04"
+"1002544";"CAC302476";"Casa em Condomínio 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Nossa Senhora da Saúde";"Estrada Vereador Ary Antônio Bergozza";"2059";NULL;"Encontrar o imóvel dos sonhos nunca foi tão fácil, basta preencher o formulário com nome, telefone e e-mail e enviar. Pronto! Agora o corretor da Nobille Negócios Imobiliários Caxias do Sul entrará em contato para confirmar seu interesse e agendar uma visita. Se tiver alguma dúvida, é só entrar em contato com a Nobille pelo número anunciado ao lado. Lembre-se que o imóvel está sujeito à confirmação de disponibilidade e valores.
+
+A chance de morar no condomínio mais desejado da cidade está batendo na sua porta!
+Esta casa ""capa de revista"" esta disponível para venda no Condomínio Montalcino, conta com uma piscina espetacular emoldurada por uma linda varanda gourmet e com uma excelente churrasqueira americana, ideal para encontros com família e amigos. A casa possuí aquecimento solar para a piscina, 03 dormitórios, 01 suíte, 03 banheiros, piso aquecido no 2º andar, closet, varanda gourmet, piscina, uma mobília de extrema qualidade e bom gosto e ainda eletrodomésticos de última geração. Lareira a pellets e posição solar privilegiada. Agende sua visita, te atenderemos com o maior prazer!
+
+A Nobille Caxias do Sul tem as melhores opções de imóveis para venda, além de lançamentos e construções em Caxias do Sul. Nosso atendimento pode ser presencial e ou online, proporcionando agilidade aos nossos clientes e amigos.
+Venha tomar um café conosco, conhecer nossa estrutura, tirar dúvidas e descobrir porque fazer seu negócio aqui é sua melhor escolha. Nossos corretores são especialistas e estão disponíveis para trazer todo conforto e segurança que você e sua família merecem.
+Trabalhamos com avaliação, permutas de imóveis e venda Em Caxias do Sul, buscamos sempre a melhor oportunidade e negociação para nossos clientes, aqui você encontra os melhores imóveis de médio e alto padrão de Caxias do Sul, temos uma variedade de Apartamentos, casas, casas em condomínio fechado, coberturas, terrenos, sobrados...sempre com as melhores condições do mercado em Caxias do Sul.
+ Contamos ainda com apoio jurídico especialista no ramo imobiliário que poderá esclarecer todas suas dúvidas à respeito de sua negociação. Anuncie seu imóvel! É fácil, rápido, seguro e gratuito! Gostou desta opção? 
+Visite esta e outras opções em nosso site: www.nobille.imb.br";"3";"1";"3";NULL;NULL;"389";NULL;"4350000";"0";"0";"2022-07-25 16:07:12"
+"1010331";"AP202583";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Rio Branco";"Rua General Mallet";"180";"apto 503";"Encontrar o imóvel dos sonhos nunca foi tão fácil, basta preencher o formulário com nome, telefone e e-mail e enviar. Pronto! Agora o corretor da Nobille Negócios Imobiliários Caxias do Sul entrará em contato para confirmar seu interesse e agendar uma visita. Se tiver alguma dúvida, é só entrar em contato com a Nobille pelo número anunciado ao lado. Lembre-se que o imóvel está sujeito à confirmação de disponibilidade e valores.
+
+Ótimo apartamento localizado no bairro mais nobre de Caxias do Sul, próximo a mercados e farmácias para facilitar seu dia a dia.
+Contém 02 dormitórios, sendo 01 suíte, 01 vaga de garagem e posição solar privilegiada, semimobiliado e com acabamentos espetaculares, um ótimo espaço para você morar com a sua família! Especialmente para você que procura conforto e praticidade, o melhor momento para investir!
+
+A Nobille Caxias do Sul tem as melhores opções de imóveis para venda, além de lançamentos e construções em Caxias do Sul. Nosso atendimento pode ser presencial e ou online, proporcionando agilidade aos nossos clientes e amigos.
+Venha tomar um café conosco, conhecer nossa estrutura, tirar dúvidas e descobrir porque fazer seu negócio aqui é sua melhor escolha. Nossos corretores são especialistas e estão disponíveis para trazer todo conforto e segurança que você e sua família merecem.
+Trabalhamos com avaliação, permutas de imóveis e venda Em Caxias do Sul, buscamos sempre a melhor oportunidade e negociação para nossos clientes, aqui você encontra os melhores imóveis de médio e alto padrão de Caxias do Sul, temos uma variedade de Apartamentos, casas, casas em condomínio fechado, coberturas, terrenos, sobrados...sempre com as melhores condições do mercado em Caxias do Sul.
+ Contamos ainda com apoio jurídico especialista no ramo imobiliário que poderá esclarecer todas suas dúvidas à respeito de sua negociação. Anuncie seu imóvel! É fácil, rápido, seguro e gratuito! Gostou desta opção? 
+Visite esta e outras opções em nosso site: www.nobille.imb.br";"2";"1";"2";"16";NULL;"76,5";NULL;"400000";"0";"0";"2022-08-12 10:22:14"
+"1071148";"CA302503";"Casa 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"São Luiz";"Rua Claudino Massochini";"205";NULL;"Encontrar o imóvel dos sonhos nunca foi tão fácil, basta preencher o formulário com nome, telefone e e-mail e enviar. Pronto! Agora o corretor da Nobille Negócios Imobiliários Caxias do Sul entrará em contato para confirmar seu interesse e agendar uma visita. Se tiver alguma dúvida, é só entrar em contato com a Nobille pelo número anunciado ao lado. Lembre-se que o imóvel está sujeito à confirmação de disponibilidade e valores.
+
+
+A casa mais moderna à venda no bairro São Luiz, com vista panorâmica da Cidade, lugar privilegiado orientação solar Leste/Oeste/Norte, ampla varanda para o pôr do sol, conceito aberto com ambientes integrados, pé direito duplo com mezanino e office, 03 suítes, lavabo, sala de jantar, estar e cozinha, lavanderia, 04 vagas de garagem, semimobiliado. 
+Vem conhecer! 
+
+
+A Nobille Caxias do Sul tem as melhores opções de imóveis para venda, além de lançamentos e construções em Caxias do Sul. Nosso atendimento pode ser presencial e ou online, proporcionando agilidade aos nossos clientes e amigos. Venha tomar um café conosco, conhecer nossa estrutura, tirar dúvidas e descobrir porque fazer seu negócio aqui é sua melhor escolha. Nossos corretores são especialistas e estão disponíveis para trazer todo conforto e segurança que você e sua família merecem. Trabalhamos com avaliação, permutas de imóveis e venda Em Caxias do Sul, buscamos sempre a melhor oportunidade e negociação para nossos clientes, aqui você encontra os melhores imóveis de médio e alto padrão de Caxias do Sul, temos uma variedade de Apartamentos, casas, casas em condomínio fechado, coberturas, terrenos, sobrados...sempre com as melhores condições do mercado em Caxias do Sul. Contamos ainda com apoio jurídico especialista no ramo imobiliário que poderá esclarecer todas suas dúvidas à respeito de sua negociação. Anuncie seu imóvel! É fácil, rápido, seguro e gratuito! Gostou desta opção? Visite esta e outras opções em nosso site: www.nobille.imb.br
+    ";"3";"3";"4";NULL;NULL;"342,4";NULL;"2377000";"0";"0";"2022-11-30 11:20:58"
+"1104458";"SB202333";"Sobrado 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Treviso";"Rua Carmelino Baptista Pozzer";"232";"05";"Encontrar o imóvel dos sonhos nunca foi tão fácil, basta preencher o formulário com nome, telefone e e-mail e enviar. Pronto! Agora o corretor da Nobille Negócios Imobiliários Caxias do Sul entrará em contato para confirmar seu interesse e agendar uma visita. Se tiver alguma dúvida, é só entrar em contato com a Nobille pelo número anunciado ao lado. Lembre-se que o imóvel está sujeito à confirmação de disponibilidade e valor.
+
+Ótimo sobrado tríplex semimobiliado, localizado no bairro Treviso!
+Paredes internas com massa corrida, pintura externa texturizada.
+Tubulação de água quente, escada internas revestidas com granito e cerca de vidro.
+Venha conhecer!
+
+A Nobille Caxias do Sul tem as melhores opções de imóveis para venda, além de lançamentos e construções em Caxias do Sul. Nosso atendimento pode ser presencial e ou online, proporcionando agilidade aos nossos clientes e amigos. Venha tomar um café conosco, conhecer nossa estrutura, tirar dúvidas e descobrir porque fazer seu negócio aqui é sua melhor escolha. Nossos corretores são especialistas e estão disponíveis para trazer todo conforto e segurança que você e sua família merecem. Trabalhamos com avaliação, permutas de imóveis e venda Em Caxias do Sul, buscamos sempre a melhor oportunidade e negociação para nossos clientes, aqui você encontra os melhores imóveis de médio e alto padrão de Caxias do Sul, temos uma variedade de Apartamentos, casas, casas em condomínio fechado, coberturas, terrenos, sobrados...sempre com as melhores condições do mercado em Caxias do Sul. Contamos ainda com apoio jurídico especialista no ramo imobiliário que poderá esclarecer todas suas dúvidas à respeito de sua negociação. Anuncie seu imóvel! É fácil, rápido, seguro e gratuito! Gostou desta opção? Visite esta e outras opções em nosso site: www.nobille.imb.br ";"2";"2";"2";NULL;NULL;"125,3";NULL;"398000";"0";NULL;"2023-02-24 16:47:26"
+"1156469";"TERC02316";"Terreno em Condomínio";"RIO GRANDE DO SUL";"Caxias do Sul";"Nossa Senhora da Saúde";"Estrada Vereador Ary Antônio Bergozza";"2059";NULL;"Encontrar o imóvel dos sonhos nunca foi tão fácil, basta preencher o formulário com nome, telefone e e-mail e enviar. Pronto! Agora o corretor da Nobille Negócios Imobiliários Caxias do Sul entrará em contato para confirmar seu interesse e agendar uma visita. Se tiver alguma dúvida, é só entrar em contato com a Nobille pelo número anunciado ao lado. Lembre-se que o imóvel está sujeito à confirmação de disponibilidade e valor.
+
+
+Montalcino Riserva, o mais desejado condomínio fechado de Caxias do Sul. Segurança, infraestrutura e qualidade de vida, sua família merece morar aqui.
+Ambientes pensado para que você possa aproveitar em todos os momentos da vida, ao seu filho pequeno ao adolescente, e claro as mais diversas comemorações com os amigos e família.
+Esta oferta é única, dos poucos terrenos juntos disponíveis a venda, totalizando 1281m², na melhor localização do condomínio, orientação solar Norte.
+
+
+
+A Nobille Caxias do Sul tem as melhores opções de imóveis para venda, além de lançamentos e construções em Caxias do Sul. Nosso atendimento pode ser presencial e ou online, proporcionando agilidade aos nossos clientes e amigos. Venha tomar um café conosco, conhecer nossa estrutura, tirar dúvidas e descobrir porque fazer seu negócio aqui é sua melhor escolha. Nossos corretores são especialistas e estão disponíveis para trazer todo conforto e segurança que você e sua família merecem. Trabalhamos com avaliação, permutas de imóveis e venda Em Caxias do Sul, buscamos sempre a melhor oportunidade e negociação para nossos clientes, aqui você encontra os melhores imóveis de médio e alto padrão de Caxias do Sul, temos uma variedade de Apartamentos, casas, casas em condomínio fechado, coberturas, terrenos, sobrados...sempre com as melhores condições do mercado em Caxias do Sul. Contamos ainda com apoio jurídico especialista no ramo imobiliário que poderá esclarecer todas suas dúvidas à respeito de sua negociação. Anuncie seu imóvel! É fácil, rápido, seguro e gratuito! Gostou desta opção? Visite esta e outras opções em nosso site: www.nobille.imb
+
+ 
+
+  ";NULL;NULL;NULL;NULL;NULL;NULL;NULL;"2433900";"0";"1000";"2023-04-17 10:45:03"
+"1158056";"AP302627";"Apartamento 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Panazzolo";"Rua Monte Carmelo";"16";"801";"Encontrar o imóvel dos sonhos nunca foi tão fácil, basta preencher o formulário com nome, telefone e e-mail e enviar. Pronto! Agora o corretor da Nobille Negócios Imobiliários Caxias do Sul entrará em contato para confirmar seu interesse e agendar uma visita. Se tiver alguma dúvida, é só entrar em contato com a Nobille pelo número anunciado ao lado. Lembre-se que o imóvel está sujeito à confirmação de disponibilidade e valor.
+
+
+A pouco metros da padaria trigos, no coração do bairro Panazzolo, próximo a escolas, parque, mercado... Terreno de esquina, possibilitando vista definitiva e permanente do apartamento, fachada em pele de vidro refleta, orientação solar Leste/ Oeste/Norte, amplas aberturas com vidros duplos, apenas 01 apartamento por andar, semimobiliado, elevador codificado, sacada fechada, salão de festas e kids place, poucos moradores, baixo custo do condomínio, valor promocional.
+Agende sua visita!! 
+
+
+
+
+
+A Nobille Caxias do Sul tem as melhores opções de imóveis para venda, além de lançamentos e construções em Caxias do Sul. Nosso atendimento pode ser presencial e ou online, proporcionando agilidade aos nossos clientes e amigos. Venha tomar um café conosco, conhecer nossa estrutura, tirar dúvidas e descobrir porque fazer seu negócio aqui é sua melhor escolha. Nossos corretores são especialistas e estão disponíveis para trazer todo conforto e segurança que você e sua família merecem. Trabalhamos com avaliação, permutas de imóveis e venda Em Caxias do Sul, buscamos sempre a melhor oportunidade e negociação para nossos clientes, aqui você encontra os melhores imóveis de médio e alto padrão de Caxias do Sul, temos uma variedade de Apartamentos, casas, casas em condomínio fechado, coberturas, terrenos, sobrados...sempre com as melhores condições do mercado em Caxias do Sul. Contamos ainda com apoio jurídico especialista no ramo imobiliário que poderá esclarecer todas suas dúvidas à respeito de sua negociação. Anuncie seu imóvel! É fácil, rápido, seguro e gratuito! Gostou desta opção? Visite esta e outras opções em nosso site: www.nobille.imb
+";"3";"1";"2";"7";"175,84";"134,73";NULL;"1100000";"0";"300";"2023-04-19 09:38:51"
+"1166989";"CA302524";"Casa 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Bela Vista";"Avenida França";"1814";NULL;"Encontrar o imóvel dos sonhos nunca foi tão fácil, basta preencher o formulário com nome, telefone e e-mail e enviar. Pronto! Agora o corretor da Nobille Negócios Imobiliários Caxias do Sul entrará em contato para confirmar seu interesse e agendar uma visita. Se tiver alguma dúvida, é só entrar em contato com a Nobille pelo número anunciado ao lado. Lembre-se que o imóvel está sujeito à confirmação de disponibilidade e valor.
+
+
+Se você está procurando por casa no bairro Bela Vista, não deixe passar essa oportunidade!
+Localizada em ponto estratégico, a casa fica próximo de tudo, farmácia, mercado, posto de combustível, é além disso, fácil acesso ao centro da cidade.
+Casa semimobiliada composta por 03 dormitórios, sendo 01 suíte máster, banheiro social, lavabo, sala de estar e jantar, cozinha, área de serviço, salão de festas com churrasqueira, depósito e 02 vagas de garagem, amplo pátio e 02 vagas de garagem, amplo pátio cercado.
+Venha conhecer!!
+
+
+A Nobille Caxias do Sul tem as melhores opções de imóveis para venda, além de lançamentos e construções em Caxias do Sul. Nosso atendimento pode ser presencial e ou online, proporcionando agilidade aos nossos clientes e amigos. Venha tomar um café conosco, conhecer nossa estrutura, tirar dúvidas e descobrir porque fazer seu negócio aqui é sua melhor escolha. Nossos corretores são especialistas e estão disponíveis para trazer todo conforto e segurança que você e sua família merecem. Trabalhamos com avaliação, permutas de imóveis e venda Em Caxias do Sul, buscamos sempre a melhor oportunidade e negociação para nossos clientes, aqui você encontra os melhores imóveis de médio e alto padrão de Caxias do Sul, temos uma variedade de Apartamentos, casas, casas em condomínio fechado, coberturas, terrenos, sobrados...sempre com as melhores condições do mercado em Caxias do Sul. Contamos ainda com apoio jurídico especialista no ramo imobiliário que poderá esclarecer todas suas dúvidas à respeito de sua negociação. Anuncie seu imóvel! É fácil, rápido, seguro e gratuito! Gostou desta opção? Visite esta e outras opções em nosso site: www.nobille.imb
+";"3";"1";"3";NULL;NULL;"207";NULL;"870000";"0";NULL;"2023-05-04 09:16:05"
+"782183";"AP201889";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Madureira";"Rua Raul Stringh";"135";"302";"Apartamento 02 dormitórios semi mobiliado, 01 vaga dupla, área de serviço, espera para água quente, banheiro social, cozinha, sala de estar e jantar, gás central e hidrômetro individual. 
+Acabamento em esquadrias de alumínio, piso cerâmico, piso laminado. 
+Condomínio com alarme e interfone. 
+Ótima localização.
+";"2";"0";"1";"5";"55";"51";"54";"175000";"0";"196";NULL
+"839391";"AP302365";"Apartamento 03 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"Panazzolo";"Rua Santo Ceroni";"243";NULL;"Apartamento em ótima localização no Panazzolo 03 dormitórios sendo 01 suíte com hidro e box separado, ampla cozinha, living 02 ambientes com estar e jantar, sacada fechada em vidro, área de serviço com churrasqueira e banheiro social;
+Acabamento com esquadrias de alumínio e massa corrida;
+Condomínio com elevador, hall de entrada decorado, portão eletrônico e jardim.";"3";"1";"2";NULL;NULL;NULL;NULL;"600000";"0";"400";"2021-06-11 14:54:35"
+"847856";"AP202402";"Apartamento 02 dormitórios";"RIO GRANDE DO SUL";"Caxias do Sul";"São Luiz";"Rua Fidelcino Neves dos Santos";"1056";"AP | N°102";"Ótimo apartamento de 02 dormitórios sendo 01 suíte, área de serviço, banheiro social, cozinha, espera para água quente, espera para hidrômetro individual, espera para split, esquadrias de alumínio, gás central com medidor individual, sala de jantar e estar integrados;
+Condomínio com alarme, cerca elétrica.";"2";"1";"2";"3";"114";"92";"92";"257600";"0";"150";"2021-07-07 15:10:03"
