@@ -76,11 +76,30 @@ dados_imoveis.describe()
 
 # %%
 
-colunas = ['QtdDormitorio','QtdSuite','QtdBanheiro','preco']
+colunas = ['preco']
 plt.boxplot(dados_imoveis[colunas])
-plt.xticks([1, 2, 3, 4], colunas)
+plt.xticks([1], colunas)
 plt.title('Outlier antes de remover')
 plt.show()
 print(f'Total de colunas com outlier: {dados_imoveis.shape[0]}')
 
+# %%
+
+Q1 = dados_imoveis[colunas].quantile(0.25)
+Q3 = dados_imoveis[colunas].quantile(0.75)
+IQR = Q3 - Q1
+
+dados_imoveis = dados_imoveis[~((dados_imoveis[colunas] < (Q1 - 1.5 * IQR)) | (dados_imoveis[colunas] > (Q3 + 1.5 * IQR))).any(axis=1)]
+
+colunas = ['preco']
+plt.boxplot(dados_imoveis[colunas])
+plt.xticks([1], colunas)
+plt.title('Outlier depois de remover')
+plt.show()
+print(f'Total de colunas com outlier: {dados_imoveis.shape[0]}')
+# %%
+
+df_sorted = dados_imoveis['preco'].sort_values(ascending=False)
+
+print(df_sorted )
 # %%
