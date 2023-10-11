@@ -211,14 +211,14 @@ X_test = scaler.transform(X_test)
 print(X_train)
 print(X_test)
 
-# Construindo o classificador Random Forest
+# construindo o classificador Random Forest
 classificador = RandomForestClassifier(n_estimators=100)
 classificador.fit(X_train, y_train)
 
-# Fazendo previsões no conjunto de teste
+# fazendo previsões no conjunto de teste
 y_pred = classificador.predict(X_test)
 
-# Avaliando o modelo
+# avaliando o modelo
 cm = confusion_matrix(y_test, y_pred)
 print(cm)
 
