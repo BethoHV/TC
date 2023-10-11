@@ -4,6 +4,14 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+from sklearn.discriminant_analysis import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+
+
+
 # lendo o aquivo csv que foi exportado do banco 
 dados_imoveis = pd.read_csv('dados/imoveis_vendidos_cx.csv',sep=';')
 
@@ -16,15 +24,30 @@ dados_imoveis['QtdBoxes'] = pd.to_numeric(dados_imoveis['QtdBoxes'], errors='coe
 dados_imoveis['AreaTotal'] = pd.to_numeric(dados_imoveis['AreaTotal'], errors='coerce')
 dados_imoveis['AreaPrivativa'] = pd.to_numeric(dados_imoveis['AreaPrivativa'], errors='coerce')
 
-
 # remove colunas inuteis
-dados_imoveis = dados_imoveis.drop(["referencia","descricao","areaUtil","numero","endereco","complemento"], axis=1)
+dados_imoveis = dados_imoveis.drop(["referencia","descricao","areaUtil","numero","endereco","complemento","Tipo","Estado","DataCadastro","preco_loca","precoCondominio"], axis=1)
 
 # limpando valores NAN para 0 nas colunas:
 fill = {'QtdDormitorio': 0,'QtdSuite': 0,'QtdBanheiro': 0,'QtdBoxes': 0,'AreaTotal': 0,'AreaPrivativa': 0, 'precoCondominio': 0}
 dados_imoveis.fillna(fill, inplace=True)
 
 print(dados_imoveis.isnull().sum())
+# %%
+# padronizando nome das cidades
+dados_imoveis['Cidade'] = dados_imoveis['Cidade'].str.title()
+
+dados_imoveis["Cidade"].value_counts() 
+
+# %%
+
+# transformando valor das cidades e bairros em numericos 
+
+label_encoder = LabelEncoder()
+dados_imoveis['Cidade'] = label_encoder.fit_transform(dados_imoveis['Cidade'])
+
+label_encoder = LabelEncoder()
+dados_imoveis['Bairro'] = label_encoder.fit_transform(dados_imoveis['Bairro'])
+
 
 #%%
 
@@ -141,11 +164,62 @@ def classificar_imovel(row):
 
     if pontos <= 3:
         return 'Baixo'
-    elif pontos <= 6:
+    elif pontos <= 5:
         return 'Médio'
     else:
         return 'Alto'
     
 dados_imoveis['padrão'] = dados_imoveis.apply(classificar_imovel, axis=1)
+
+#%%
+
+# metodo de classificação 1
+
+# pré-processamento dos dados
+X = dados_imoveis.iloc[:, :-1].values
+y = dados_imoveis.iloc[:, -1].values
+
+# dividindo os dados em conjuntos de treinamento e teste
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+model = RandomForestClassifier()
+model.fit(X_train, y_train)
+
+y_pred = model.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+print(f"Acurácia: {accuracy}")
+print(classification_report(y_test, y_pred))
+print(confusion_matrix(y_test, y_pred))
+
+
+#%%
+
+# metodo de classificação 2
+
+# pré-processamento dos dados
+X = dados_imoveis.iloc[:, :-1].values
+y = dados_imoveis.iloc[:, -1].values
+
+# dividindo os dados em conjuntos de treinamento e teste
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# normalizando os recursos
+scaler = StandardScaler()
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
+
+print(X_train)
+print(X_test)
+
+# Construindo o classificador Random Forest
+classificador = RandomForestClassifier(n_estimators=100)
+classificador.fit(X_train, y_train)
+
+# Fazendo previsões no conjunto de teste
+y_pred = classificador.predict(X_test)
+
+# Avaliando o modelo
+cm = confusion_matrix(y_test, y_pred)
+print(cm)
 
 # %%
