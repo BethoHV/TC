@@ -174,8 +174,7 @@ dados_imoveis['padrão'] = dados_imoveis.apply(classificar_imovel, axis=1)
 #mostrar total de padrões 
 
 #%%
-
-# metodo de classificação 1
+# metodo de classificação
 
 # pré-processamento dos dados
 X = dados_imoveis.iloc[:, :-1].values
@@ -187,7 +186,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 model = RandomForestClassifier()
 model.fit(X_train, y_train)
 
-#validação cruzada
+#fazer validação cruzada
 
 y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
