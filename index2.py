@@ -13,7 +13,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 
 # lendo o aquivo csv que foi exportado do banco 
-dados_imoveis = pd.read_csv('dados/imoveis_vendidos_cx.csv',sep=';')
+dados_imoveis = pd.read_csv('dados/imoveis_vendidos_poa.csv',sep=';')
 
 # transforma os valores de preco em valores numericos
 dados_imoveis['preco'] = pd.to_numeric(dados_imoveis['preco'], errors='coerce')
@@ -164,12 +164,14 @@ def classificar_imovel(row):
 
     if pontos <= 3:
         return 'Baixo'
-    elif pontos <= 5:
+    elif pontos <= 6:
         return 'Médio'
     else:
         return 'Alto'
     
 dados_imoveis['padrão'] = dados_imoveis.apply(classificar_imovel, axis=1)
+
+#mostrar total de padrões 
 
 #%%
 
@@ -185,41 +187,13 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 model = RandomForestClassifier()
 model.fit(X_train, y_train)
 
+#validação cruzada
+
 y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Acurácia: {accuracy}")
 print(classification_report(y_test, y_pred))
 print(confusion_matrix(y_test, y_pred))
 
-
-#%%
-
-# metodo de classificação 2
-
-# pré-processamento dos dados
-X = dados_imoveis.iloc[:, :-1].values
-y = dados_imoveis.iloc[:, -1].values
-
-# dividindo os dados em conjuntos de treinamento e teste
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-# normalizando os recursos
-scaler = StandardScaler()
-X_train = scaler.fit_transform(X_train)
-X_test = scaler.transform(X_test)
-
-print(X_train)
-print(X_test)
-
-# construindo o classificador Random Forest
-classificador = RandomForestClassifier(n_estimators=100)
-classificador.fit(X_train, y_train)
-
-# fazendo previsões no conjunto de teste
-y_pred = classificador.predict(X_test)
-
-# avaliando o modelo
-cm = confusion_matrix(y_test, y_pred)
-print(cm)
 
 # %%
