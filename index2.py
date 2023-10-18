@@ -5,15 +5,14 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 from sklearn.discriminant_analysis import StandardScaler
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, cross_val_predict
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 
-
 # lendo o aquivo csv que foi exportado do banco 
-dados_imoveis = pd.read_csv('dados/imoveis_vendidos_poa.csv',sep=';')
+dados_imoveis = pd.read_csv('dados/imoveis_vendidos_cx.csv',sep=';')
 
 # transforma os valores de preco em valores numericos
 dados_imoveis['preco'] = pd.to_numeric(dados_imoveis['preco'], errors='coerce')
@@ -152,15 +151,15 @@ limites = {
     'QtdDormitorio': [2,4],
     'QtdBanheiro': [1,2],
     'QtdSuite': [1,2],
-    'preco': [250000,500000]
+    'preco': [180000,500000]
 }
 
 def classificar_imovel(row):
     pontos = 0
-    pontos += (row['QtdDormitorio'] > limites['QtdDormitorio'][0]) + (row['QtdDormitorio'] > limites['QtdDormitorio'][1])
-    pontos += (row['QtdBanheiro'] > limites['QtdBanheiro'][0]) + (row['QtdBanheiro'] > limites['QtdBanheiro'][1])
-    pontos += (row['QtdSuite'] > limites['QtdSuite'][0]) + (row['QtdSuite'] > limites['QtdSuite'][1])
-    pontos += (row['preco'] > limites['preco'][0]) + (row['preco'] > limites['preco'][1])
+    pontos += (row['QtdDormitorio'] >= limites['QtdDormitorio'][0]) + (row['QtdDormitorio'] >= limites['QtdDormitorio'][1])
+    pontos += (row['QtdBanheiro'] >= limites['QtdBanheiro'][0]) + (row['QtdBanheiro'] >= limites['QtdBanheiro'][1])
+    pontos += (row['QtdSuite'] >= limites['QtdSuite'][0]) + (row['QtdSuite'] >= limites['QtdSuite'][1])
+    pontos += (row['preco'] >= limites['preco'][0]) + (row['preco'] >= limites['preco'][1])
 
     if pontos <= 3:
         return 'Baixo'
@@ -169,30 +168,42 @@ def classificar_imovel(row):
     else:
         return 'Alto'
     
-dados_imoveis['padrão'] = dados_imoveis.apply(classificar_imovel, axis=1)
+dados_imoveis['Padrao'] = dados_imoveis.apply(classificar_imovel, axis=1)
 
 #mostrar total de padrões 
 
 #%%
 # metodo de classificação
+model = RandomForestClassifier()
 
-# pré-processamento dos dados
-X = dados_imoveis.iloc[:, :-1].values
-y = dados_imoveis.iloc[:, -1].values
+numatributos = len(dados_imoveis.columns) - 1
+atributos = list(dados_imoveis.columns[0:numatributos])
+
+X = dados_imoveis[atributos]
+y = dados_imoveis['Padrao']
+
+
+#%%
 
 # dividindo os dados em conjuntos de treinamento e teste
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
-model = RandomForestClassifier()
-model.fit(X_train, y_train)
+print(X_train)
+print(X_test)
 
-#fazer validação cruzada
+#%%
+resultado = model.fit(X_train, y_train)
+predicted = cross_val_predict(model, X_train, y_train, cv=10)
+expected = y_train.values
+print(confusion_matrix(expected, predicted))
 
-y_pred = model.predict(X_test)
-accuracy = accuracy_score(y_test, y_pred)
-print(f"Acurácia: {accuracy}")
-print(classification_report(y_test, y_pred))
-print(confusion_matrix(y_test, y_pred))
+print("Esperado:\n")
+print(expected)
+print("Previsto:\n")
+print(predicted)
+
+print(classification_report(expected, predicted))
+print(accuracy_score(expected, predicted))
 
 
 # %%
