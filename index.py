@@ -3,11 +3,20 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+import lime.lime_tabular
+from sklearn.ensemble import RandomForestClassifier
 
 from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
 
 from classifica_imoveis import classificaP,classificaPDB
 from metodos import RandonForrest, DecisionTree, GradientBoost
+from sklearn.metrics import classification_report
+from sklearn.model_selection import cross_val_predict
+from sklearn.metrics import confusion_matrix
+import sklearn.model_selection
+import sklearn.utils.metaestimators
+
 
 #%%
 # lendo o aquivo csv que foi exportado do banco 
@@ -142,8 +151,6 @@ label_encoder = LabelEncoder()
 imoveis['Bairro'] = label_encoder.fit_transform(imoveis['Bairro'])
 
 
-
-
 #%%
 #classificação do padrão considerando apenas preço
 classificaP(imoveis)
@@ -153,7 +160,6 @@ print(imoveis['Padrao'].value_counts())
 #classificação do padrão considerando preço, dormitorios e quartos
 classificaPDB(imoveis)
 print(imoveis['Padrao'].value_counts())
-
 
 
 # %%
@@ -167,5 +173,31 @@ DecisionTree(imoveis)
 # %%
 # utilizando metodo GradientBoosting
 GradientBoost(imoveis)
+
+# %%
+
+numatributos = len(imoveis.columns) - 1
+atributos = list(imoveis.columns[0:numatributos])
+
+X = imoveis[atributos]
+y = imoveis['Padrao']
+
+# dividindo os dados em conjuntos de treinamento e teste
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
+
+print(y.unique())
+print(X.columns)
+
+#%%
+# Criar um objeto Lime
+expl = lime.lime_tabular.LimeTabularExplainer(X_train, feature_names=['id', 'Cidade', 'Bairro', 'QtdDormitorio', 'QtdSuite', 'QtdBanheiro','QtdBoxes', 'AreaTotal', 'AreaPrivativa', 'preco','Padrao'],class_names=['Medio','Alto','Baixo'])
+# %%
+
+import eli5
+from eli5 import show_prediction
+
+classificador_forest = RandomForestClassifier()
+
+eli5.show_weights(classificador_forest, feature_names = imoveis.columns)
 
 # %%

@@ -10,7 +10,7 @@ def classificaP(df):
         if preco >= limiar_alto:
             return 'Alto'
         elif preco <= limiar_baixo:
-            return 'Baixo '
+            return 'Baixo'
         else:
             return 'Medio'
     
@@ -40,8 +40,35 @@ def classificaPDB(df):
         elif preco <= limiar_baixo_p and banheiros <= limiar_baixo_b and quartos <= limiar_baixo_d:
             return 'Baixo'
         else:
-            return 'Médio'
+            return 'Medio'
     
     df['Padrao'] = df.apply(lambda row: classificar_padrao(row['preco'], row['QtdBanheiro'], row['QtdDormitorio']), axis=1)
+
+    return df
+
+def classifica_antigo(df):
+    
+    limites = {
+    'QtdDormitorio': [2,4],
+    'QtdBanheiro': [1,2],
+    'QtdSuite': [1,2],
+    'preco': [180000,500000]
+    }
+
+    def classificar_imovel(row):
+        pontos = 0
+        pontos += (row['QtdDormitorio'] >= limites['QtdDormitorio'][0]) + (row['QtdDormitorio'] >= limites['QtdDormitorio'][1])
+        pontos += (row['QtdBanheiro'] >= limites['QtdBanheiro'][0]) + (row['QtdBanheiro'] >= limites['QtdBanheiro'][1])
+        pontos += (row['QtdSuite'] >= limites['QtdSuite'][0]) + (row['QtdSuite'] >= limites['QtdSuite'][1])
+        pontos += (row['preco'] >= limites['preco'][0]) + (row['preco'] >= limites['preco'][1])
+
+        if pontos <= 3:
+            return 'Baixo'
+        elif pontos <= 6:
+            return 'Médio'
+        else:
+            return 'Alto'
+        
+    df['Padrao'] = df.apply(classificar_imovel, axis=1)
 
     return df
