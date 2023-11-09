@@ -8,20 +8,23 @@ from sklearn.ensemble import RandomForestClassifier
 
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
-
-from classifica_imoveis import classificaP,classificaPDB
-from metodos import RandonForrest, DecisionTree, GradientBoost
 from sklearn.metrics import classification_report
 from sklearn.model_selection import cross_val_predict
 from sklearn.metrics import confusion_matrix
 import sklearn.model_selection
 import sklearn.utils.metaestimators
 
+from classifica_imoveis import classificaP,classificaPDB
+from metodos import RandonForrest, DecisionTree, GradientBoost
+from plotagens import plotBairro_TD,plotBairro_T, plot_TDB
+
+
 
 #%%
 # lendo o aquivo csv que foi exportado do banco 
-imoveis = pd.read_csv('dados/imoveis_vendidos_cx.csv',sep=';')
+imoveis = pd.read_csv('dados/imoveis_vendidos_cx.csv',sep=';',index_col=False)
 
+#%%
 # transforma os valores de preco em valores numericos
 imoveis['preco'] = pd.to_numeric(imoveis['preco'], errors='coerce')
 imoveis['QtdDormitorio'] = pd.to_numeric(imoveis['QtdDormitorio'], errors='coerce')
@@ -32,13 +35,14 @@ imoveis['AreaTotal'] = pd.to_numeric(imoveis['AreaTotal'], errors='coerce')
 imoveis['AreaPrivativa'] = pd.to_numeric(imoveis['AreaPrivativa'], errors='coerce')
 
 # remove colunas inuteis
-imoveis = imoveis.drop(["referencia","descricao","areaUtil","numero","endereco","complemento","Tipo","Estado","DataCadastro","preco_loca","precoCondominio"], axis=1)
+imoveis = imoveis.drop(["referencia","descricao","areaUtil","numero","endereco","complemento","Estado","DataCadastro","preco_loca","precoCondominio"], axis=1)
 
 # limpando valores NAN para 0 nas colunas:
 fill = {'QtdDormitorio': 0,'QtdSuite': 0,'QtdBanheiro': 0,'QtdBoxes': 0,'AreaTotal': 0,'AreaPrivativa': 0, 'precoCondominio': 0}
 imoveis.fillna(fill, inplace=True)
 
 print(imoveis.isnull().sum())
+
 # %%
 # padronizando nome das cidades
 imoveis['Cidade'] = imoveis['Cidade'].str.title()
@@ -140,15 +144,29 @@ plt.show()
 print(f'Total de colunas com outlier: {imoveis.shape[0]}')
 
 
+#%%
+#plotagem de graficos:
+
+# bairro por tipo e dormitorios
+plotBairro_TD(imoveis)
+
+#%%
+
+# bairro por tipo
+plotBairro_T(imoveis)
+
+#%%
+
+# bairro por tipo,dormitorios e banheiros
+plot_TDB(imoveis)
 # %%
 
 # transformando valor das cidades e bairros em numericos 
 
 label_encoder = LabelEncoder()
 imoveis['Cidade'] = label_encoder.fit_transform(imoveis['Cidade'])
-
-label_encoder = LabelEncoder()
 imoveis['Bairro'] = label_encoder.fit_transform(imoveis['Bairro'])
+imoveis['Tipo'] = label_encoder.fit_transform(imoveis['Tipo'])
 
 
 #%%
@@ -179,18 +197,36 @@ GradientBoost(imoveis)
 numatributos = len(imoveis.columns) - 1
 atributos = list(imoveis.columns[0:numatributos])
 
-X = imoveis[atributos]
-y = imoveis['Padrao']
+X = imoveis[atributos].values
+y = imoveis['Padrao'].values
 
 # dividindo os dados em conjuntos de treinamento e teste
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
+treinamento_x, validacao_x, treinamento_y, validacao_y = train_test_split(X, y, test_size = 0.20)
+print(treinamento_x)
 
-print(y.unique())
-print(X.columns)
 
 #%%
 # Criar um objeto Lime
-expl = lime.lime_tabular.LimeTabularExplainer(X_train, feature_names=['id', 'Cidade', 'Bairro', 'QtdDormitorio', 'QtdSuite', 'QtdBanheiro','QtdBoxes', 'AreaTotal', 'AreaPrivativa', 'preco','Padrao'],class_names=['Medio','Alto','Baixo'])
+classificador_forest = RandomForestClassifier()
+resultado = classificador_forest.fit(treinamento_x, treinamento_y)
+
+expl = lime.lime_tabular.LimeTabularExplainer(treinamento_x, feature_names=['id', 'Tipo', 'Cidade', 'Bairro', 'QtdDormitorio', 'QtdSuite', 'QtdBanheiro', 'QtdBoxes', 'AreaTotal', 'AreaPrivativa', 'preco'],class_names=['Baixo', 'Medio', 'Alto'])
+
+prever = lambda x: classificador_forest.predict_proba(x).astype(float)
+
+print(validacao_x[1])
+print(prever(validacao_x[1].reshape(1,-1)))
+print(classificador_forest.predict(validacao_x[1].reshape(1,-1)))
+
+previsto = classificador_forest.predict(validacao_x[5].reshape(1,-1))
+probabilidades = classificador_forest.predict_proba(validacao_x[5].reshape(1,-1))
+print(previsto)
+print(probabilidades)
+#%%
+exp = expl.explain_instance(validacao_x[5], prever, num_features=4)
+exp.show_in_notebook(show_all=True)
+
+
 # %%
 
 import eli5
