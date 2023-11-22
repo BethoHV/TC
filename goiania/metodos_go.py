@@ -5,7 +5,7 @@ from sklearn import tree
 from sklearn.ensemble import RandomForestClassifier,GradientBoostingClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
-import lime.lime_tabular
+
 
 def RandonForrest(df):
 
@@ -15,15 +15,15 @@ def RandonForrest(df):
     numatributos = len(df.columns) - 1
     atributos = list(df.columns[0:numatributos])
 
-    X = df[atributos]
-    y = df['Padrao']
+    X = df[atributos].values
+    y = df['Padrao'].values
 
     # dividindo os dados em conjuntos de treinamento e teste
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
     resultado = model.fit(X_train, y_train)
     predicted = cross_val_predict(model, X_train, y_train, cv=10)
-    expected = y_train.values
+    expected = y_train
     print(confusion_matrix(expected, predicted))
 
     print("Esperado:\n")
@@ -41,7 +41,7 @@ def RandonForrest(df):
 
     #validação no conjunto de dados que foi definido como validação
     predicted = model.predict(X_test)
-    expected = y_test.values
+    expected = y_test
 
     print(confusion_matrix(expected, predicted))
 
@@ -53,6 +53,8 @@ def RandonForrest(df):
     print(classification_report(expected, predicted))
     print(accuracy_score(expected, predicted))
 
+    return X,y
+
 
 def DecisionTree(df):
     
@@ -60,8 +62,8 @@ def DecisionTree(df):
     numatributos = len(df.columns) - 1
     atributos = list(df.columns[0:numatributos]) 
 
-    X = df[atributos]
-    y = df['Padrao']    
+    X = df[atributos].values
+    y = df['Padrao'].values   
 
     # processo de aprendizado
 
@@ -69,7 +71,7 @@ def DecisionTree(df):
     predicted = cross_val_predict(classificador_tree, X, y, cv=10)
 
     #matriz de confusão
-    expected = y.values
+    expected = y
     print('Matriz de confusão')
     print(confusion_matrix(expected, predicted))
 
@@ -92,6 +94,7 @@ def DecisionTree(df):
     for feature,importancia in zip(df.columns,classificador_tree.feature_importances_):
         print("{}:{}".format(feature, importancia))
         
+    return X,y
 
 def GradientBoost(df):
     model = GradientBoostingClassifier(n_estimators=100, learning_rate=0.1, max_depth=3, random_state=42)
@@ -99,15 +102,15 @@ def GradientBoost(df):
     numatributos = len(df.columns) - 1
     atributos = list(df.columns[0:numatributos])
 
-    X = df[atributos]
-    y = df['Padrao']
+    X = df[atributos].values
+    y = df['Padrao'].values   
 
     # dividindo os dados em conjuntos de treinamento e teste
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     resultado = model.fit(X_train, y_train)
     predicted = cross_val_predict(model, X_train, y_train, cv=10)
-    expected = y_train.values
+    expected = y_train
     print(confusion_matrix(expected, predicted))
 
     print("Esperado:\n")
@@ -125,7 +128,7 @@ def GradientBoost(df):
 
     #validação no conjunto de dados que foi definido como validação
     predicted = model.predict(X_test)
-    expected = y_test.values
+    expected = y_test
 
     print(confusion_matrix(expected, predicted))
 
@@ -136,3 +139,5 @@ def GradientBoost(df):
 
     print(classification_report(expected, predicted))
     print(accuracy_score(expected, predicted))
+
+    return X,y

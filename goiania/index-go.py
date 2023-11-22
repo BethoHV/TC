@@ -14,9 +14,10 @@ from sklearn.metrics import confusion_matrix
 import sklearn.model_selection
 import sklearn.utils.metaestimators
 
-from classifica_imoveis_go import classificaP,classificaPDB,classifica_antigo
+from classifica_imoveis_go import classificaP,classificaPDB,classifica_antigo,classifica_valm
 from metodos_go import RandonForrest, DecisionTree, GradientBoost
 from plotagens_go import plotBairro_TD,plotBairro_T, plot_TDB
+from metodo_lime import Lime
 
 
 
@@ -184,62 +185,24 @@ print(imoveis['Padrao'].value_counts())
 classifica_antigo(imoveis)
 print(imoveis['Padrao'].value_counts())
 
-
+#%%
+imoveis = imoveis.drop(['Preco'], axis=1)
 
 # %%
 # utilizando metodo RandonForrest
-RandonForrest(imoveis)
+X,y = RandonForrest(imoveis)
 
 # %%
 # utilizando metodo DecisionTree
-DecisionTree(imoveis)
+X,y = DecisionTree(imoveis)
 
 # %%
 # utilizando metodo GradientBoosting
-GradientBoost(imoveis)
+X,y = GradientBoost(imoveis)
 
 # %%
 
-numatributos = len(imoveis.columns) - 1
-atributos = list(imoveis.columns[0:numatributos])
+Lime(X,y)
 
-X = imoveis[atributos].values
-y = imoveis['Padrao'].values
-
-# dividindo os dados em conjuntos de treinamento e teste
-treinamento_x, validacao_x, treinamento_y, validacao_y = train_test_split(X, y, test_size = 0.20)
-print(treinamento_x)
-
-
-#%%
-# Criar um objeto Lime
-classificador_forest = RandomForestClassifier()
-resultado = classificador_forest.fit(treinamento_x, treinamento_y)
-
-expl = lime.lime_tabular.LimeTabularExplainer(treinamento_x, feature_names=['index', 'Preco', 'Area', 'Dormitorios', 'Garagens', 'Banheiros', 'Tipo', 'Bairro', 'Cidade'],class_names=['Baixo', 'Medio', 'Alto'])
-
-prever = lambda x: classificador_forest.predict_proba(x).astype(float)
-
-print(validacao_x[1])
-print(prever(validacao_x[1].reshape(1,-1)))
-print(classificador_forest.predict(validacao_x[1].reshape(1,-1)))
-
-previsto = classificador_forest.predict(validacao_x[5].reshape(1,-1))
-probabilidades = classificador_forest.predict_proba(validacao_x[5].reshape(1,-1))
-print(previsto)
-print(probabilidades)
-#%%
-exp = expl.explain_instance(validacao_x[5], prever, num_features=4)
-exp.show_in_notebook(show_all=True)
-
-
-# %%
-
-import eli5
-from eli5 import show_prediction
-
-classificador_forest = RandomForestClassifier()
-
-eli5.show_weights(classificador_forest, feature_names = imoveis.columns)
 
 # %%

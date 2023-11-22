@@ -17,12 +17,13 @@ import sklearn.utils.metaestimators
 from classifica_imoveis import classificaP,classificaPDB
 from metodos import RandonForrest, DecisionTree, GradientBoost
 from plotagens import plotBairro_TD,plotBairro_T, plot_TDB
+from metodo_lime import Lime
 
 
 
 #%%
 # lendo o aquivo csv que foi exportado do banco 
-imoveis = pd.read_csv('dados/imoveis_vendidos_cx.csv',sep=';',index_col=False)
+imoveis = pd.read_csv('../dados/imoveis_vendidos_cx.csv',sep=';',index_col=False)
 
 #%%
 # transforma os valores de preco em valores numericos
@@ -35,7 +36,7 @@ imoveis['AreaTotal'] = pd.to_numeric(imoveis['AreaTotal'], errors='coerce')
 imoveis['AreaPrivativa'] = pd.to_numeric(imoveis['AreaPrivativa'], errors='coerce')
 
 # remove colunas inuteis
-imoveis = imoveis.drop(["referencia","descricao","areaUtil","numero","endereco","complemento","Estado","DataCadastro","preco_loca","precoCondominio"], axis=1)
+imoveis = imoveis.drop(["id","referencia","descricao","areaUtil","numero","endereco","complemento","Estado","DataCadastro","preco_loca","precoCondominio"], axis=1)
 
 # limpando valores NAN para 0 nas colunas:
 fill = {'QtdDormitorio': 0,'QtdSuite': 0,'QtdBanheiro': 0,'QtdBoxes': 0,'AreaTotal': 0,'AreaPrivativa': 0, 'precoCondominio': 0}
@@ -176,55 +177,29 @@ print(imoveis['Padrao'].value_counts())
 
 # %%
 #classificação do padrão considerando preço, dormitorios e quartos
-classificaPDB(imoveis)
-print(imoveis['Padrao'].value_counts())
+#classificaPDB(imoveis)
+#print(imoveis['Padrao'].value_counts())
 
+#%%
+# removendo a coluna de preços para aplicação dos metodos
+imoveis = imoveis.drop(['preco'], axis=1)
 
 # %%
 # utilizando metodo RandonForrest
-RandonForrest(imoveis)
+X,y = RandonForrest(imoveis)
 
 # %%
 # utilizando metodo DecisionTree
-DecisionTree(imoveis)
+X,y = DecisionTree(imoveis)
 
 # %%
 # utilizando metodo GradientBoosting
-GradientBoost(imoveis)
+X,y = GradientBoost(imoveis)
 
 # %%
 
-numatributos = len(imoveis.columns) - 1
-atributos = list(imoveis.columns[0:numatributos])
-
-X = imoveis[atributos].values
-y = imoveis['Padrao'].values
-
-# dividindo os dados em conjuntos de treinamento e teste
-treinamento_x, validacao_x, treinamento_y, validacao_y = train_test_split(X, y, test_size = 0.20)
-print(treinamento_x)
-
-
 #%%
-# Criar um objeto Lime
-classificador_forest = RandomForestClassifier()
-resultado = classificador_forest.fit(treinamento_x, treinamento_y)
-
-expl = lime.lime_tabular.LimeTabularExplainer(treinamento_x, feature_names=['id', 'Tipo', 'Cidade', 'Bairro', 'QtdDormitorio', 'QtdSuite', 'QtdBanheiro', 'QtdBoxes', 'AreaTotal', 'AreaPrivativa', 'preco'],class_names=['Baixo', 'Medio', 'Alto'])
-
-prever = lambda x: classificador_forest.predict_proba(x).astype(float)
-
-print(validacao_x[1])
-print(prever(validacao_x[1].reshape(1,-1)))
-print(classificador_forest.predict(validacao_x[1].reshape(1,-1)))
-
-previsto = classificador_forest.predict(validacao_x[5].reshape(1,-1))
-probabilidades = classificador_forest.predict_proba(validacao_x[5].reshape(1,-1))
-print(previsto)
-print(probabilidades)
-#%%
-exp = expl.explain_instance(validacao_x[5], prever, num_features=4)
-exp.show_in_notebook(show_all=True)
+Lime(X,y)
 
 
 # %%

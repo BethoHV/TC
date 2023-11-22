@@ -1,3 +1,4 @@
+import pandas as pd
 
 def classificaP(df):
 
@@ -69,4 +70,24 @@ def classifica_antigo(df):
         
     df['Padrao'] = df.apply(classificar_imovel, axis=1)
 
+    return df
+
+def classifica_valm(df):
+
+    df['PPM'] = df['Preco'] / df['Area']
+
+    media_preco = df['PPM'].mean()
+
+    print(media_preco)
+
+    limite_alto = 1.5 * media_preco
+    limite_baixo = 0.7 * media_preco
+
+    print(limite_alto)
+    print(limite_baixo)
+
+    df['Padrao'] = pd.cut(df['PPM'],
+                             bins=[0, limite_baixo, limite_alto, float('inf')],
+                             labels=['Baixo', 'Médio', 'Alto'])
+    
     return df
